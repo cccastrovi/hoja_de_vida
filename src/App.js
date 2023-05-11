@@ -8,11 +8,13 @@ import Home from "./components/home/index.jsx";
 import Estudios from "./components/estudios/index.jsx";
 import ExperienciasLaborales from "./components/experiencias/index.jsx";
 import Referencias from "./components/referencias/index.jsx";
+import Navegacion from "./components/navegacion";
 
 
 function App(params) {
   return(
     <BrowserRouter>
+      <Navegacion></Navegacion>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/estudios" element={<Estudios/>}></Route>

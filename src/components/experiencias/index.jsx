@@ -1,11 +1,11 @@
 import React from "react";
 
-function Footerhoja(params) {
+function Experiencias(params) {
     return (
         <div>
-            <h1>hola soy el footer</h1>
+            <h1>Aqui van las Experiencias</h1>
         </div>
     )
 }
 
-export default Footerhoja;
+export default Experiencias;
