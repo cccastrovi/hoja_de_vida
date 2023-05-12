@@ -12,17 +12,6 @@ function Home() {
                     <Col>
                         <h4>Algo Sobre Mi</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorem suscipit sint praesentium consectetur illo temporibus corporis dicta! Iusto, dolore. Accusantium, incidunt! Magnam, accusantium veniam dolore molestiae labore aliquam. Tenetur.</p></Col>
-                        <article>
-                            <Col>
-                                <li>lorem1</li>
-                                <li>lorem2</li>
-                                <li>lorem3</li>
-                                <li>lorem4</li>
-                                <li>lorem5</li>
-                                <li>lorem6</li>
-                                <li>lorem7</li>
-                            </Col>
-                        </article>
                 </Row>
                 <Row>
                     <Col>
@@ -43,6 +32,15 @@ function Home() {
                     </Col>
                 </Row>
                 <Row>
+                <Col>
+                    <li>lorem1</li>
+                    <li>lorem2</li>
+                    <li>lorem3</li>
+                    <li>lorem4</li>
+                    <li>lorem5</li>
+                    <li>lorem6</li>
+                    <li>lorem7</li>
+                </Col>
                     <Col>
 
                     </Col>
