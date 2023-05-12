@@ -9,6 +9,7 @@ import Estudios from "./components/estudios/index.jsx";
 import ExperienciasLaborales from "./components/experiencias/index.jsx";
 import Referencias from "./components/referencias/index.jsx";
 import Navegacion from "./components/navegacion";
+import Footer from "./components/footer";
 
 
 function App(params) {
@@ -22,6 +23,7 @@ function App(params) {
         <Route path="/referencias" element={<Referencias/>}></Route>
         <Route path="*" element={<Home/>}></Route>
       </Routes>
+      <Footer></Footer>
     </BrowserRouter>
   )
 }

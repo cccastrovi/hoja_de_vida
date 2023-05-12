@@ -1,4 +1,17 @@
+.Card-style {
+    border-radius: 100px;
+    margin: auto;
+}
+
+.Card__CardImg-style {
+    border-radius: 100%;
+}
+
 .Nav_Link{
     padding: 0px 10px;
-    border: 1px solid #dede00;
 }
+
+.Card__title-style,.Card__text-style{
+    font-family: 'Courier New', Courier, monospace;
+}
+

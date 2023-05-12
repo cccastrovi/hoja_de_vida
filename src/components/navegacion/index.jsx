@@ -12,13 +12,13 @@ function Navegacion() {
             <Card className="text-center">
                 <Card.Header>HOJA DE VIDA</Card.Header>
                 <Card.Body>
-                    <Card.Title>NUNCA DE RINDAS POR MAS DURA QUE SEA LA PRUEBA</Card.Title>
-                    <Card.Text>
+                    <Card.Title className="Card__title-style">NUNCA DE RINDAS POR MAS DURA QUE SEA LA PRUEBA</Card.Title>
+                    <Card.Text className="Card__text-style">
                         LAS COSAS BUENAS NUNCA SON FACILES.
                     </Card.Text>
 
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWJaa44hakF5skS3g1dAqjMEuMAR6MgAetFw&usqp=CAU" />
+                    <Card style={{ width: '14rem' }} className="Card-style">
+                        <Card.Img  variant="top" className="Card__CardImg-style" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWJaa44hakF5skS3g1dAqjMEuMAR6MgAetFw&usqp=CAU" />
                     </Card>
                 </Card.Body>
                 <Card.Footer className="text-muted">
