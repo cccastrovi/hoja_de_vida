@@ -46,7 +46,7 @@ function Estudios() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Privado</small>
                     </Card.Footer>
                 </Card>
 
@@ -87,7 +87,7 @@ function Estudios() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">profundización</small>
+                        <small className="text-muted">profundización en .....</small>
                     </Card.Footer>
                 </Card>
 
@@ -131,7 +131,7 @@ function Estudios() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Especialicacion en .......</small>
+                        <small className="text-muted">Especialicacion en .....</small>
                     </Card.Footer>
                 </Card>
 
