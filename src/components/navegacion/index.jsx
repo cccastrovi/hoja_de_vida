@@ -18,7 +18,7 @@ function Navegacion() {
                     </Card.Text>
 
                     <Card style={{ width: '14rem' }} className="Card-style">
-                        <Card.Img  variant="top" className="Card__CardImg-style" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWJaa44hakF5skS3g1dAqjMEuMAR6MgAetFw&usqp=CAU" />
+                        <Card.Img  variant="top" className="Card__CardImg-style" src="https://www.seekpng.com/png/full/356-3562377_personal-user.png" />
                     </Card>
                 </Card.Body>
                 <Card.Footer className="text-muted">
