@@ -28,7 +28,8 @@
     width: 900px;
 }
 
-hr {
+.hr {
+    border: 1px solid #dedede;
     width: 70%;
     margin: auto;
 }

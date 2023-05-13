@@ -1,70 +1,166 @@
-# Getting Started with Create React App
+#Project name
+****
+Curriculum Vitae, final four-year programming project
+## Table of Contents
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs)
+### General Info
+***
+You will be able to enter all the necessary information so that you can present the companies with the best menara and that they can hire you
+### Screenshot
+![Image text]()
+image.png
+## Technologies
+***
+A list of technologies used within the project:
+* [React](https://react.dev/): Version 18.2.0 
+* [Boostrap](https://react-bootstrap.github.io/): Version 2.7.4
+* [React router dom](https://www.npmjs.com/package/react-router-dom): Version 6.11.1
+## Installation
+***
+A little intro about the installation. 
+```
+$ git clone https://github.com/cccastrovi/hoja_de_vida.git
+$ npm install
+$ npm start
+```
+## Collaboration
+***
+instructions on how to collaborate on the project.
+> make the design much nicer.
+> improve form fields.
+## FAQs
+***
+<div>
+            <CardGroup>
+                <Card>
+                    <Card.Body>
+                        <Card.Title>Primaria</Card.Title>
+                    <Card.Text>
+                    <ListGroup variant="flush">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Nombre de la Institucion</Form.Label>
+                        <Form.Control type="text"/>
+                        </ListGroup.Item>
 
-## Available Scripts
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Fecha Inicio</Form.Label>
+                        <Form.Control type="date"/>
+                        </ListGroup.Item>
 
-In the project directory, you can run:
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Fecha Terminacion</Form.Label>
+                        <Form.Control type="date"/>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                        <Form.Group className="mb-3">
+                            <Form.Label>Ciudad Donde Termino</Form.Label>
+                            <Form.Select>
+                                <option>Manizales</option>
+                                <option>Bogota</option>
+                                <option>Cali</option>
+                                <option>Pereira</option>
+                                <option>Cartagena</option>
+                                <option>Tolima</option>
+                            </Form.Select>
+                        </Form.Group>
+                        </ListGroup.Item>
+                    </ListGroup>
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Privado</small>
+                    </Card.Footer>
+                </Card>
 
-### `npm start`
+                <Card>
+                    <Card.Body>
+                        <Card.Title>Secundaria</Card.Title>
+                    <Card.Text>
+                    <ListGroup variant="flush">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Nombre de la Institucion</Form.Label>
+                        <Form.Control type="text"/>
+                        </ListGroup.Item>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Fecha Inicio</Form.Label>
+                        <Form.Control type="date"/>
+                        </ListGroup.Item>
 
-### `npm test`
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Fecha Terminacion</Form.Label>
+                        <Form.Control type="date"/>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                        <Form.Group className="mb-3">
+                            <Form.Label>Ciudad Donde Termino</Form.Label>
+                            <Form.Select>
+                                <option>Manizales</option>
+                                <option>Bogota</option>
+                                <option>Cali</option>
+                                <option>Pereira</option>
+                                <option>Cartagena</option>
+                                <option>Tolima</option>
+                            </Form.Select>
+                        </Form.Group>
+                        </ListGroup.Item>
+                    </ListGroup>
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">profundización en .....</small>
+                    </Card.Footer>
+                </Card>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+                <Card>
+                    <Card.Body>
+                        <Card.Title>Universidad</Card.Title>
+                    <Card.Text>
+                    <ListGroup variant="flush">
 
-### `npm run build`
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Nombre de la Institucion</Form.Label>
+                        <Form.Control type="text"/>
+                        </ListGroup.Item>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Fecha Inicio</Form.Label>
+                        <Form.Control type="date"/>
+                        </ListGroup.Item>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+                        <ListGroup.Item>
+                        <Form.Label htmlFor="">Fecha Terminacion</Form.Label>
+                        <Form.Control type="date"/>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                        <Form.Group className="mb-3">
+                            <Form.Label>Ciudad Donde Termino</Form.Label>
+                            <Form.Select>
+                                <option>Manizales</option>
+                                <option>Bogota</option>
+                                <option>Cali</option>
+                                <option>Pereira</option>
+                                <option>Cartagena</option>
+                                <option>Tolima</option>
+                                <option>Canada</option>
+                                <option>España</option>
+                                <option>Inglaterra</option>
+                            </Form.Select>
+                        </Form.Group>
+                        </ListGroup.Item>
+                    </ListGroup>
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Especialicacion en .....</small>
+                    </Card.Footer>
+                </Card>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+            </CardGroup>
+        </div>|

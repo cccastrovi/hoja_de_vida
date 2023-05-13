@@ -50,7 +50,7 @@ function Home() {
                                 <Form.Check inline label="hobbies 6" name="group1" />
                             </div>
                     </Row>
-                    <hr />
+                    <div className="hr"></div>
                     <Row className="form__row-style2">
                         <Form.Group as={Row} className="mb-3">
                             <Form.Label htmlFor="basic-url"><strong>GENERO</strong></Form.Label>
@@ -60,7 +60,7 @@ function Home() {
                             </div>
                         </Form.Group>
                     </Row>
-                    <hr />
+                    <div className="hr"></div>
                     <Row className="form__row-style3">
                         <Col>
                             <Form.Label column lg={2}>Nombre</Form.Label>
