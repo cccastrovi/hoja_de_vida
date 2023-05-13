@@ -1,5 +1,4 @@
 .Accordion-style{
-    border: solid red;
     padding: 15px 0px;
     margin: auto;
     width: 70%;
@@ -9,17 +8,27 @@
     font-family: cursive ;
 }
 
-.form__row--style {
-    border: 1px solid green;
+.form__row-style {
     padding: 0px 0px -40px 0px;
     text-align: center;
     margin: auto;
     width: 70%;
 }
 
-.form__row--style2 {
-    border: 1px solid green;
+.form__row-style2 {
     text-align: center;
-    margin: 10px 0px 0px 480px;
-    width: 14%;
+    margin: 10px 0px 0px 170px;
+    width: 115px;
+    height: 88px;
+}
+
+.form__row-style3 {
+    margin: 10px 0px 0px 120px;
+    padding: 5px;
+    width: 900px;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
 }

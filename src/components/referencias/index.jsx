@@ -1,5 +1,7 @@
 import React from "react";
 
+import './styles/styles.css'
+
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
@@ -7,18 +9,15 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Col from "react-bootstrap/esm/Col";
 
-
-
-
 function Referencias() {
     return(
-        <div>
+        <div className="div-margen">
             <Row>
                 <Col>
                     <Card style={{ width: '18rem' }}>
-                        <ListGroup variant="flush">
+                        <ListGroup>
                             <Form>
-                                <Row className="mb-3">
+                                <Row className="">
                                     <ListGroup.Item>
                                         <Form.Group controlId="validationCustom01">
                                         <Form.Label>Nombre y Apellidos</Form.Label>
@@ -64,9 +63,9 @@ function Referencias() {
 
                 <Col>
                     <Card style={{ width: '18rem' }}>
-                        <ListGroup variant="flush">
+                        <ListGroup variant="">
                             <Form>
-                                <Row className="mb-3">
+                                <Row className="">
                                     <ListGroup.Item>
                                         <Form.Group controlId="validationCustom01">
                                         <Form.Label>Nombre y Apellidos</Form.Label>
@@ -112,9 +111,9 @@ function Referencias() {
 
                 <Col>
                     <Card style={{ width: '18rem' }}>
-                        <ListGroup variant="flush">
+                        <ListGroup variant="">
                             <Form>
-                                <Row className="mb-3">
+                                <Row className="">
                                     <ListGroup.Item>
                                         <Form.Group controlId="validationCustom01">
                                         <Form.Label>Nombre y Apellidos</Form.Label>

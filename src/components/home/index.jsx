@@ -38,77 +38,52 @@ function Home() {
             </Accordion>
 
             <Container>
-
-            <Form>
-                <Row className="form__row--style">
-                    <Form.Label htmlFor="basic-url"><strong>HOBBIES</strong></Form.Label>
-                        <div className="mb-3">
-                            <Form.Check inline label="hobbies 1" name="group1" />
-                            <Form.Check inline label="hobbies 2" name="group1" />
-                            <Form.Check inline label="hobbies 3" name="group1" />
-                            <Form.Check inline label="hobbies 4" name="group1" />
-                            <Form.Check inline label="hobbies 5" name="group1" />
-                            <Form.Check inline label="hobbies 6" name="group1" />
-                        </div>
-                </Row>
-
-                <Row className="form__row--style2">
-                    <fieldset>
+                <Form>
+                    <Row className="form__row-style">
+                        <Form.Label htmlFor="basic-url"><strong>HOBBIES</strong></Form.Label>
+                            <div className="mb-3">
+                                <Form.Check inline label="hobbies 1" name="group1" />
+                                <Form.Check inline label="hobbies 2" name="group1" />
+                                <Form.Check inline label="hobbies 3" name="group1" />
+                                <Form.Check inline label="hobbies 4" name="group1" />
+                                <Form.Check inline label="hobbies 5" name="group1" />
+                                <Form.Check inline label="hobbies 6" name="group1" />
+                            </div>
+                    </Row>
+                    <hr />
+                    <Row className="form__row-style2">
                         <Form.Group as={Row} className="mb-3">
                             <Form.Label htmlFor="basic-url"><strong>GENERO</strong></Form.Label>
-                            <Col>
+                            <div className="mb-3">
                                 <Form.Check type="radio" label="Masculino" name="grupo1"/>
                                 <Form.Check type="radio" label="Femenino"  name="grupo1"/>
-                            </Col>
+                            </div>
                         </Form.Group>
-                    </fieldset>
-                </Row>
-
-                <Row>
-                    <Form.Label column lg={2}>Nombre</Form.Label>
-                    <Col>
-                        <Form.Control type="text" placeholder="Pepito" />
-                    </Col>
-                    <br />
-                    <Form.Label column lg={2}>Apellido</Form.Label>
-                    <Col>
-                        <Form.Control type="text" placeholder="Lopez" />
-                    </Col>
-                    <br />
-                    <Form.Label column lg={2}>Telefono</Form.Label>
-                    <Col>
-                        <Form.Control type="number" placeholder="8888888" />
-                    </Col>
-                    <br />
-                    <Form.Label column lg={2}>Correo</Form.Label>
-                    <Col>
-                        <Form.Control type="email" placeholder="pepito@micorreo.com" />
-                    </Col>
-                </Row>
-                
-
-
-
-
-
-            </Form>
-                
-                <Row>
-                <Col>
-                    <li>lorem1</li>
-                    <li>lorem2</li>
-                    <li>lorem3</li>
-                    <li>lorem4</li>
-                    <li>lorem5</li>
-                    <li>lorem6</li>
-                    <li>lorem7</li>
-                </Col>
-                    <Col>
-
-                    </Col>
-                </Row>
+                    </Row>
+                    <hr />
+                    <Row className="form__row-style3">
+                        <Col>
+                            <Form.Label column lg={2}>Nombre</Form.Label>
+                            <Form.Control type="text" placeholder="Pepito" />
+                        </Col>
+                        <br />
+                        <Col>
+                            <Form.Label column lg={2}>Apellido</Form.Label>                    
+                            <Form.Control type="text" placeholder="Lopez" />
+                        </Col>
+                        <br />
+                        <Col>
+                            <Form.Label column lg={2}>Telefono</Form.Label>                    
+                            <Form.Control type="number" placeholder="8888888" />
+                        </Col>
+                        <br />
+                        <Col>
+                            <Form.Label column lg={2}>Correo</Form.Label>                    
+                            <Form.Control type="email" placeholder="pepito@micorreo.com" />
+                        </Col>
+                    </Row>
+                </Form>
             </Container>
-            <h1>Aqui va un descripcion mia </h1>
         </section>
     )
 }
