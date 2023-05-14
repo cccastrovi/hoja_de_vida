@@ -8,6 +8,9 @@ import Accordion from 'react-bootstrap/Accordion';
 import Form from 'react-bootstrap/Form';
 
 function Home() {
+
+    let persona  = {nombre:'Pepito',apellido:'Ramirez', telefono: '9999999', correo:'pepito@micorreo.com'}
+
     return(
         <section>
             <Accordion defaultActiveKey="0" className="Accordion-style">
@@ -64,22 +67,22 @@ function Home() {
                     <Row className="form__row-style3">
                         <Col>
                             <Form.Label column lg={2}>Nombre</Form.Label>
-                            <Form.Control type="text" placeholder="Pepito" />
+                            <Form.Control type="text" placeholder={persona.nombre} />
                         </Col>
                         <br />
                         <Col>
                             <Form.Label column lg={2}>Apellido</Form.Label>                    
-                            <Form.Control type="text" placeholder="Lopez" />
+                            <Form.Control type="text" placeholder={persona.apellido} />
                         </Col>
                         <br />
                         <Col>
                             <Form.Label column lg={2}>Telefono</Form.Label>                    
-                            <Form.Control type="number" placeholder="8888888" />
+                            <Form.Control type="number" placeholder={persona.telefono} />
                         </Col>
                         <br />
                         <Col>
                             <Form.Label column lg={2}>Correo</Form.Label>                    
-                            <Form.Control type="email" placeholder="pepito@micorreo.com" />
+                            <Form.Control type="email" placeholder={persona.correo} />
                         </Col>
                     </Row>
                 </Form>
